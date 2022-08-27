@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Triangulo</tittle>
+</head>
+<body>
+    <script>
+
+   numeros= prompt ("Informe a quantiade de numeros: ") ;
+
+    
+   Array.from(Array(numeros).keys())
+
+   for( let i = 1; i <= lista; i++){
+
+        if(i % 5 == 0){
+
+           numeros.push("Luidy")
+
+        }
+
+        if(i % 9 == 0){
+
+           numeros.push("Moura")
+
+        }
+
+        if (i % 5 == 0 && i % 9 == 0){
+
+           numeros.push("LuidyMoura")
+
+        }
+
+        if (i % 5 != 0 || i % 9 != 0) {
+
+           numeros.push(i)
+
+        }
+
+   }
+
+   return (numeros)
+   
+}
+
+    </script>
+</body>
+</html> 
