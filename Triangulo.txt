@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Triangulo</tittle>
+</head>
+<body>
+    <script>
+
+        function triangulo(var1, var2, var3){
+
+            var a = var1
+            var b = var2
+            var c = var3
+
+            if(a <(b+c) && b <(a+c) && c < (a+b)){
+
+               if(a == b && b == c){
+                  return "equilatero";
+               }else if(a==b || a == c || c == b){
+			return "isoceles";
+		   }else {
+			return "escaleno";
+		   }
+		}else{
+		    return "não eh triangulo";
+		}
+	  }		
+    </script>
+</body>
+</html> 
